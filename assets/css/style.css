@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lobster&family=Open+Sans&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.navbar-brand span{
+    font-family: 'Bungee Spice', cursive;
+ 
+}
+.offcanvas.offcanvas-end{
+    top: 25% !important;
+}
+
+
+.offcanvas-start {
+    top: 65px;
+    width: 271px;
+}
+/* ul.side-menu {
+    height: fit-content;
+} */
+ul.side-menu li{
+    background-color: #212529;
+    border: none;
+    padding: 0;
+}
+ul.side-menu li.list-group-item a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    transition: box-shadow 0.23s ease;
+    padding: 20px 10px; 
+    word-spacing: 15px;
+}
+ul.side-menu li a:hover{
+    /* color: #; */
+    box-shadow: inset 16.5em 0 5px 0 #0d6efd;
+}
+.mobile-dropdown{
+    min-width: 100%;
+    padding: 0;
+}
+img[alt=profile-picture]{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 768.9px){
+    .offcanvas-start {
+        /* top: 114px; */
+        width: 196px;
+    }
+}
